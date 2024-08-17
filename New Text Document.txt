@@ -195,19 +195,21 @@ two object have same data but they are not similar so set can store both obj
 
 
 
---------------------------------  CLASSES --------------------------------------
+--------------------------------  CLASSES --------------------------------------	
 
 same as constructior function but change of syntax
 
 
 
 ---------------- Inheritance 
-
+1> Prototype inheritance
 student.protype ---> this will be passed to all the children
 
 
 
-
+callback function ---> whic can be passed throuch argument
+ 
+  for each(function)  ---> [17-8-24]  101
 
 
 

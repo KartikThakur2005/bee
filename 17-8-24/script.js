@@ -68,12 +68,73 @@
 
 
 
-function student(fname,marks)
-{
-    this.name = fname;
-    this.mark =marks;
-}
+// function student(fname,marks)
+// {
+//     this.name = fname;
+//     this.mark =marks;
+// }
 
-var x = new student("kartik",23);
+// var x = new student("kartik",23);
 
-console.log(x);
+// console.log(x);
+
+
+// function student(fname,marks)
+// {
+//      this.fname = fname;
+//      this.mark = marks;
+// }
+
+// student.prototype.maor = 100;
+
+// console.log(student);
+
+// console.log(student.maor); 
+
+
+// var stu1 = new student("kartik",120);
+
+// console.log(stu1);
+
+
+ 
+// var a  = [1,2,3,4];
+
+// function callbackFunction(val)
+//  {
+//      return 2*val;
+//  }
+
+// Array.prototype.forEachCustom = function(callbackFunction)
+// {
+//     console.log(this);
+
+//     for(let i = 0;i<this.length;i++)
+//         {
+//            callbackFunction(this[i]);
+//         }
+// }
+
+// a.forEachCustom(callbackFunction);
+
+// var a  = [1,2,3,4];
+
+// function callbackFunction(val)
+//  {
+//      return 2*val;
+//  }
+
+// Array.prototype.mapCustom = function(call)
+// {
+//        let arr = [];
+//        for(let i = 0;i<this.length;i++)
+//         {
+//           arr.push( call(this[i]));
+//         }
+    
+//     return arr;
+
+
+// }
+
+// console.log(a.mapCustom(callbackFunction));
