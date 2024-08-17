@@ -1,0 +1,173 @@
+JavaScript is single threaded but because of web browser do all function
+
+--------------------------- HOW BROWSER WORK -----------------------------
+1> Heap --> var data is stored
+2> Stack --> in stack process under execution are there 
+
+3> How event are handled ---> Handled
+	 by event loop by callback qeue
+
+
+---------------------------------------------------------------------------
+
+
+1> if we pass arr=[1,23] dynamically with out indexing then it will convert it into string by tostring method ,and while 
+rendering it will print 1,23 it will add  (,comma) separator; In this case will use join method
+ arr.join(";"); 
+
+
+2>MAP ---> Map is used to  return arr   mao(item,index,arr) arr to check 
+
+
+3> Window object --> top level variable --> which can be accessed globaly by anyone
+
+4> eyer data which come from server can not be hidden
+
+
+
+
+
+------------------------------------------------------------------------
+hosting --> by hosting a var defined variable it declared at the starting of function
+var ---> because of hosting if a variable is declared but its value it not defined and a function is
+called in which it is present then the error is value is not assigned
+ 
+let --> this show error variable is not defined
+
+
+
+--------------------------- self invoking function  --------
+function(){}();
+
+
+1> let x 
+   if()
+{
+   let x 
+}
+
+here these both let are different 
+but var will be same
+
+
+
+
+
+1> let x 
+   if()
+{
+    console.log(let1)
+   let x 
+
+   console.log(let1);
+}
+
+in if   let will try to find within its scope it is defined or not
+if defined but declared below then error will show it will not take value of global value
+console.log(let1)
+   let x 
+
+
+
+
+
+
+
+
+
+-------------------------------------------- OBJECT --------------------------------------------
+
+every thing in JavaScript is object
+
+var x = 10;
+
+we can use   x.toString()
+
+x.length;
+
+
+ --------->  In case of toString()  we use ();
+             In case of length   we don't ;
+               
+    these both are same but one is function and another is just variable;
+
+
+ we cannot directly send object to html we have to convert into string to send to another network
+
+
+JSON.stringfy(obj)   --> will convert into string
+JSON -- it is property of Window [ JavaScript object Notation]
+
+JSON.parse(obj) convert into object
+
+ 
+
+
+---------------------------  local storage -----------
+
+Data in form of string
+
+obj1{name:"kartik",no:"10"};
+
+localStorage.setItem(loacalobj,obj1);
+localStorage.getItem(localobj)
+
+this will not return obj but it will return null
+
+
+localStorage.setItem("hello",JSON.stringify(obj1));
+localStorage.getItem("hello")
+
+this will return data
+
+
+
+----------------  map -------------------
+it will return new array
+
+
+difference between map and for each  lopp'
+
+map always return another array
+
+
+------------------ speread
+ copy ---> of element
+
+of conccatination of two or more array
+
+- =------------- rest operator --------------
+
+reverse of spread operator 
+
+combine all elemenet into one [[ use for [passing multiple argument
+
+use for passing dynamic argument 
+
+
+------------------------------- Set ----------
+
+set is collection of unique element
+but set can act as both array and obect
+
+ when we use x.add(1)  --> this is set property
+   when we use x[1]  -->  this is of object property
+
+we cannot access the value of set directly we have to use for loop
+
+we can check by this 
+for( let x val of s.values())
+{
+    console.log(val);
+}
+
+1> x.union(y);
+2> x.difference(y);
+3>x.entries();
+
+two object have same data but they are not similar so set can store both obj
+
+
+
+
+
