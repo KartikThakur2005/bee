@@ -31,6 +31,18 @@ rendering it will print 1,23 it will add  (,comma) separator; In this case will 
 hosting --> by hosting a var defined variable it declared at the starting of function
 var ---> because of hosting if a variable is declared but its value it not defined and a function is
 called in which it is present then the error is value is not assigned
+
+
+function fun()
+{
+       console.log(x);
+}
+
+fun();
+
+var x = 10;
+
+
  
 let --> this show error variable is not defined
 
@@ -174,6 +186,10 @@ use for passing dynamic argument
 set is collection of unique element
 but set can act as both array and obect
 
+var x=new Set([1,2,2,4]);
+ console.log(x);
+
+
  when we use x.add(1)  --> this is set property
    when we use x[1]  -->  this is of object property
 
@@ -210,6 +226,34 @@ student.protype ---> this will be passed to all the children
 callback function ---> whic can be passed throuch argument
  
   for each(function)  ---> [17-8-24]  101
+
+
+
+Private variable --------------  #name
+these are declared automatically
+
+Static are not used because these are declared when class is made which is passed to child object
+
+
+
+
+-------------------------------------- WEB STORAGE ----------------------------------------
+
+web storage has 2 features 
+
+1>Local Storage
+   setItem
+   getitem
+   removeitem
+
+  local storage can be accesed between same port 
+  but not in another
+
+
+
+2> Session Storage  --> it for current tab
+
+
 
 
 

@@ -138,3 +138,30 @@
 // }
 
 // console.log(a.mapCustom(callbackFunction));
+
+
+
+ 
+// function student(name , rollno)
+// {
+
+//    this.name = name;
+//    this.rollno = rollno;   
+
+// //    this.call=function call(num)
+// //    {
+// //       if(num>60) console.log("pass");
+// //       else console.log("fail");
+// //    }
+// }
+
+
+ var x=new Set([1,2,2,4]);
+ 
+ console.log(x.entries())
+ console.log(x.values())
+
+//  for( let i of x.values())
+// {
+//     console.log(i);
+// }
